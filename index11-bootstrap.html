@@ -1,0 +1,115 @@
+<html>
+    <head>
+        <title>Ejercio 1 con Bulma</title>
+        <meta charset="utf8">
+        <meta name="keyword" content="Esta es la pagina de ejercion con bulma">
+        <link href="bootstrap4.6/css/bootstrap.min.css" rel="stylesheet">
+ 
+        <script src="index11.js" defer></script>       
+        <script src="bootstrap4.6/js/jquery-3.5.1.slim.min.js"></script> 
+        <script src="bootstrap4.6/js/popper.min.js"></script>      
+        <script src="bootstrap4.6/js/bootstrap.min.js"></script>
+ 
+
+        <link href="hojacomun.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container-fluid">
+ 
+           <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top ml-auto">
+                <a class="navbar-brand">logo</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-expanded="false" aria-controls="navbarScroll">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse ml-auto" id="navbarScroll">
+                    <ul class="navbar-nav navbar-nav-scroll">
+                        <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Educacion</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Conocimiento</a></li>
+                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown">Proyectos</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">javascrip</a>
+                                <a class="dropdown-item" href="@">css</a>
+                                <a class="dropdown-item" href="#">otro</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+           <header id="header" class="row jumbotron bg-success ">
+
+               <div id="he" class="col-lg-10 col-12 ml-md">
+                    <h1 class="title text-white">Esta es Pagina esta basada en Bootstrap 4.6</h1>
+                    <h2 class="subtitle text-info">una buena vista</h2>
+               </div>
+             </header>
+            <nav id="nav" class="row">
+                <ul id="na" class="col-md-12 col nav nav-pills bg-dark">
+                    <li class="nav-item"><a class="nav-link active" href="inico">Inicio</a></li>
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true" href="#">primero</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="segundo">Segundo</a>
+                            <a class="dropdown-item" href="tercero">Tercero</a>
+                            <a class="dropdown-item" href="cuarto">Cuarto</a>
+
+
+
+                       <!-- <li class="nav-item dropdown-item"><a class="nav-link " href="segundo">Segundo</a></li>
+                        <li class="nav-item  dropdown-item"><a class="nav-link" href="tercero">Tercero</a></li>
+                        <li class="nav-itemdropdown-item" ><a class="nav-link " href="cuarto">Cuarto</a></li>-->
+                        </div>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="quinto">Quiento</a></li>
+                </ul>
+            </nav>
+             <main id="main" class="row align-items-center justify-content-around">
+                <section id="section" class="col-lg-8 col text-white align-self-start">
+                    <article class="card card-body bg-light mb-3 text-dark">
+                        <h4>Educacion</h4>
+                        <p class="card-text">ESto es un articulo de la seccion principal que debe estar en la parte central</p>
+                    </article>
+                    <article class="card-body bg-info card mb-3">
+                        <h4>Conocimento</h4>
+                        <p class="card-text">Otro articulo en la seccion main, que debe estar debaja del otro articulo</p>
+                    </article>
+                </section>
+                <aside id="aside" class="col-lg-2 col-6">
+                    <p>Lo que se ve aqui es el aside - que se ubicara a al derecha de la patina en formatod dektop</p>
+                    <p>esto es otra line del aside espero se vea bien<strong>bien fuerte</strong> para que todos vean l o bien que queda seguramente se ve mas grande pero agranda las demas comunas</p>
+                    <p>Lo que se ve aqui es el aside - que se ubicara a al derecha de la patina en formatod dektop</p>
+                    <p>esto es otra line del aside espero se vea bien<strong>bien fuerte</strong> para que todos vean l o bien que queda seguramente se ve mas grande pero agranda las demas comunas</p>
+
+                </aside>
+            </main>
+
+            <aside class="col-lg-2 col">
+              <div>
+                   <nav>
+                       <button id="eloco" href="#">elcoultar</button>
+                       <ul id="elmen">
+                           <li><a href="@nada">uno</a></li>
+                           <li><a href="@nada">dos</a></li>
+                           <li><a href="@nada">tre</a></li>
+                       </ul>
+                   </nav>
+                    
+                </div>
+
+                <div class="card card-body bg-success">
+                    <ha class="card-text">ESto se vera en el costado como aside</ha>
+                </div>
+               </aside>
+            <footer id="footer" class="row d-none d-sm-block">
+                <div id="foo" class="col mr-lg-auto col-lg-8 align-self-end">
+                    <p class="">Gracia por visitar mi pagina</p>
+                    <p>año 2021</p>
+                </div>
+                <div>
+                    <button type="button" href="#mitexto" data-toggle="collapase" class="btn btn-danger">CLick</button>
+                    <a href="#mitexto" class="btn btn-success" data-toggle="collapse">CLICK</a>
+                    <div id="mitexto" class="collapse">este es el texto a ver cuando se preiciona el booten clik</div>
+                </div>
+           </footer>
+        </div>
+    </body>
+</html>
