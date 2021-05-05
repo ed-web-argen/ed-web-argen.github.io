@@ -1,0 +1,39 @@
+aside{
+    background: red;
+    border: 2px solid brown;
+}
+section{
+    background: burlywood;
+    border: 2px solid firebrick;
+}
+nav{
+    background: fuchsia;
+    border: 2px solid black;
+}
+.triangulo{
+    width: 50; 
+    height: 50; 
+    border-left: 150px solid #f0ad4e;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent; 
+    background-color: lawngreen;
+}
+.circulo {
+    width: 130px;
+    height: 130px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #5cb85c;
+    text-orientation: sideways;
+}
+.rectangulo {
+    width: 250px; 
+    height: 100px; 
+    border: 3px solid #555;
+    background: #428bca;
+}
+#mi{
+    height: 300px;
+    background: lightslategray;
+}

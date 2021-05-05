@@ -1,0 +1,139 @@
+#contenedor{
+    background: linear-gradient(45deg, darkslategrey, rgb(128, 109, 109));
+    background: -webkit-linear-gradient(45deg, darkslategrey, rgb(128, 109, 109));
+    background: -moz-linear-gradient(45deg, darkslategrey, black);
+}
+#menu{
+   list-style: none;
+    dddddisplay: block;
+    position: fixed;
+    padding-top: 15rem;
+    
+}
+#menu li{
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+
+    width: 15rem;
+    
+}
+
+aside{
+    background: linear-gradient(90deg, black, grey);
+    height: 1500px;
+    border-right: 5px solid rgb(95, 88, 88);
+}
+header{
+    position: fixed;
+    padding-top: 5rem;
+    text-align: center;
+}
+#conta{
+    position: fixed;
+}
+#contenido{
+    height: 18rem;
+}
+.fondoele{
+    background: linear-gradient(20deg, red, black);
+    background: -moz-linear-gradient(20deg, red, black);
+    background: -webkit-linear-gradient(20deg, red, black);
+}
+.margenarticulos{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.margenarticulo2{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+#contenido:{
+    background: red;
+}
+html{
+    scroll-behavior: smooth;
+}
+h2{
+    margin: 0px;
+    border-radius: 0px;
+
+}
+#tecnologia, #sobre, #proyectos, #contacto{
+    padding-bottom: 40px;
+    transition: 1s ease-in-out;
+}
+#tecnologia:target, #sobre:target, #proyectos:target, #contacto:target{
+    transform: translate(0px, 2rem);
+    border-radius: 40px;
+   
+    background: linear-gradient(190deg, blue, black);
+    background: -webkit-linear-gradient(190deg, blue, black);
+    background: -moz-linear-gradient(190deg, blue, black);
+     box-shadow: 4px 5px 5px #fff;  
+    transition: 1.5s ease-in-out;
+
+}
+
+input{
+    display: none;
+}
+
+
+
+@media (min-width: 750px){
+    #iconme{
+        display: none;
+    }
+}
+
+@media (max-width: 740px){
+
+    #iconme{
+        font-size: 32px;
+        background: rgb(199, 59, 59);
+        display: block;
+        position: fixed;
+        z-index: 6;
+    }
+
+    #menu{
+        display: none;
+        flex-direction: column;
+        margin-top: -200px;
+        margin-left: -30px;
+        background: rgb(146, 141, 141, 0.7);
+        z-index: 5;
+    }
+    input{
+        position: fixed;
+        display: block;
+        width: 40px;
+        height: 40px;
+        z-index: 7;
+        opacity: 0;
+        
+    }
+    #menu li{
+        padding-bottom: 0.2rem;
+    }
+    input:checked ~ #menu{
+        display: flex;
+    }
+    header{
+        position: absolute;
+    }
+    aside{
+        height: 20rem;
+    }
+
+
+    button:hover{
+        background: rgb(216, 51, 51);
+    }
+    #dtecnologia:target{
+
+        transform: translateY(50vh);
+    }
+    
+}
